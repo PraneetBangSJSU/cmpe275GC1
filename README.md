@@ -3,7 +3,10 @@
 Steps
 -- Install GRPC on Mac - brew install grpc
 
-Compile proto file - protoc --java_out=. file.proto
+Compile proto file - 
+
+protoc --java_out=. file.proto
+
 compile java  - 
 
 javac -cp ".:protobuf-java-3.17.0.jar" FileServer.java
