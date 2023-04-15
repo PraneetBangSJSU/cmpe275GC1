@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message FileChunk {
+  bytes chunk = 1;
+}
+
+service FileService {
+  rpc SendFile(stream FileChunk) returns (google.protobuf.Empty);
+}
