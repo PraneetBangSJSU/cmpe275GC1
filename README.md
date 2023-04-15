@@ -9,8 +9,8 @@ protoc --java_out=. file.proto
 
 compile java  - 
 
-javac -cp ".:protobuf-java-3.17.0.jar" server.java
-javac -cp ".:protobuf-java-3.17.0.jar" client.java
+javac -cp ".:protobuf-java-3.17.0.jar" FileServer.java
+javac -cp ".:protobuf-java-3.17.0.jar" FileClient.java
 
 run server
 
